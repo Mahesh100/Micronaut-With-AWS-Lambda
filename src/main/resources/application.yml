@@ -1,7 +1,17 @@
 micronaut:
   application:
     name: lambdaDemoApp
+  server:
+    port: 8084
+
 netty:
   default:
     allocator:
       max-order: 3
+
+redis:
+  uri: redis://localhost
+  ssl: false
+  timeout : 30s
+
+

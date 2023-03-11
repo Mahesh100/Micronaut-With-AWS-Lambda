@@ -20,6 +20,8 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
     implementation("io.micronaut.aws:micronaut-function-aws")
+    //For redis DB we used below dependency
+    implementation("io.micronaut.redis:micronaut-redis-lettuce")
 }
 
 
